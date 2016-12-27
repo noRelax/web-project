@@ -1,0 +1,266 @@
+
+.xubox_shade, .xubox_layer {
+    position: fixed;
+}
+.xubox_shade {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.xubox_layer {
+    height: auto;
+    left: 50%;
+    margin-left: -155px;
+    top: 150px;
+    width: 310px;
+}
+.xubox_border, .xubox_title, .xubox_title i, .xubox_page, .xubox_iframe, .xubox_title em, .xubox_close, .xubox_msgico, .xubox_moves {
+    position: absolute;
+}
+.xubox_border {
+    border-radius: 5px;
+}
+.xubox_title {
+    left: 0;
+    margin-top: 0;
+}
+.xubox_main {
+    height: 100%;
+    position: relative;
+}
+.xubox_page {
+    left: 0;
+    top: 0;
+}
+.xubox_load {
+    background: url("default/xubox_loading0.gif") no-repeat scroll center center #fff;
+}
+.xubox_loading {
+    color: #fff;
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+.xulayer_png32 {
+    background: url("default/xubox_ico0.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.xubox_moves {
+    border: 3px solid #333;
+    cursor: move;
+    opacity: 0.7;
+}
+.xubox_msgico {
+    background: url("default/xubox_ico0.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 32px;
+    left: 15px;
+    top: 52px;
+    width: 32px;
+}
+.xubox_text {
+    float: left;
+    font-size: 14px;
+    line-height: 25px;
+    overflow: hidden;
+    padding-left: 55px;
+    padding-right: 20px;
+    word-break: break-all;
+    color: #363636;
+}
+.xubox_msgtype0 {
+    background-position: -91px -38px;
+}
+.xubox_msgtype1 {
+    background-position: -128px -38px;
+}
+.xubox_msgtype2 {
+    background-position: -163px -38px;
+}
+.xubox_msgtype3 {
+    background-position: -91px -75px;
+}
+.xubox_msgtype4 {
+    background-position: -163px -75px;
+}
+.xubox_msgtype5 {
+    background-position: -163px -112px;
+}
+.xubox_msgtype6 {
+    background-position: -163px -148px;
+}
+.xubox_msgtype7 {
+    background-position: -128px -75px;
+}
+.xubox_msgtype8 {
+    background-position: -91px -6px;
+}
+.xubox_msgtype9 {
+    background-position: -129px -6px;
+}
+.xubox_msgtype10 {
+    background-position: -163px -6px;
+}
+.xubox_msgtype11 {
+    background-position: -206px -6px;
+}
+.xubox_msgtype12 {
+    background-position: -206px -44px;
+}
+.xubox_msgtype13 {
+    background-position: -206px -81px;
+}
+.xubox_msgtype14 {
+    background-position: -206px -122px;
+}
+.xubox_msgtype15 {
+    background-position: -206px -157px;
+}
+.xubox_loading_0 {
+    background: url("default/xubox_loading0.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 24px;
+    width: 60px;
+}
+.xubox_loading_1 {
+    background: url("default/xubox_loading1.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 37px;
+    width: 37px;
+}
+.xubox_loading_2, .xubox_msgtype16 {
+    background: url("default/xubox_loading2.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 32px;
+    width: 32px;
+}
+.xubox_loading_3 {
+    background: url("default/xubox_loading3.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 22px;
+    width: 126px;
+}
+.xubox_title {
+    background: url("default/xubox_title0.png") repeat-x scroll 0 0 #ebebeb;
+    border-bottom: 1px solid #d5d5d5;
+    color: #333;
+    cursor: move;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+}
+.xubox_title em {
+    display: block;
+    font-style: normal;
+    height: 20px;
+    left: 10px;
+    line-height: 20px;
+    overflow: hidden;
+    top: 9px;
+    width: 80%;
+}
+.xubox_close0 {
+    background-position: -31px -7px;
+    cursor: pointer;
+    height: 14px;
+    overflow: hidden;
+    right: 10px;
+    top: 10px;
+    width: 14px;
+}
+.xubox_close0:hover {
+    background-position: -51px -7px;
+}
+.xubox_close1 {
+    background-position: -5px -252px;
+    cursor: pointer;
+    height: 30px;
+    overflow: hidden;
+    right: -20px;
+    top: -21px;
+    width: 34px;
+}
+.xubox_close1:hover {
+    background-position: -44px -252px;
+}
+.xubox_botton a {
+    background: url("default/xubox_ico0.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+.xubox_botton a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.xubox_botton .xubox_botton1 {
+    background-position: -6px -34px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: -39px;
+    width: 79px;
+}
+.xubox_botton1:hover {
+    background-position: -6px -72px;
+}
+.xubox_botton .xubox_botton2 {
+    background-position: -5px -114px;
+    height: 29px;
+    line-height: 29px;
+    margin-left: -76px;
+    width: 71px;
+}
+.xubox_botton2:hover {
+    background-position: -5px -146px;
+}
+.xubox_botton .xubox_botton3 {
+    background-position: -81px -114px;
+    height: 29px;
+    line-height: 29px;
+    margin-left: 10px;
+    width: 71px;
+}
+.xubox_botton3:hover {
+    background-position: -81px -146px;
+}
+.xubox_tips {
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    line-height: 20px;
+    padding: 3px 30px 3px 10px;
+    position: relative;
+}
+.xubox_tips i.layerTipsG {
+    border-color: transparent;
+    border-style: dashed;
+    border-width: 8px;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+.xubox_tips i.layerTipsT, .xubox_tips i.layerTipsB {
+    border-right-style: solid;
+    left: 5px;
+}
+.xubox_tips i.layerTipsT {
+    bottom: -8px;
+}
+.xubox_tips i.layerTipsB {
+    top: -8px;
+}
+.xubox_tips i.layerTipsR, .xubox_tips i.layerTipsL {
+    border-bottom-style: solid;
+    top: 1px;
+}
+.xubox_tips i.layerTipsR {
+    left: -8px;
+}
+.xubox_tips i.layerTipsL {
+    right: -8px;
+}
+.xubox_page {
+    width: 100%;
+}
